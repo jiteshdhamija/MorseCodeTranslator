@@ -43,6 +43,15 @@ public enum morseEnum {
         return "";
     }
 
+    static char getCharFromMorse(String morse) {
+        morseEnum[] susu = morseEnum.values();
+        for (int i = 0; i < susu.length; i++) {
+            if (susu[i].value.equals(morse))
+                return susu[i].key;
+        }
+        return ' ';
+    }
+
     public static void main(String[] args) {
         // morseEnum[] susu = morseEnum.values();
         // for (int i = 0; i < susu.length; i++) {

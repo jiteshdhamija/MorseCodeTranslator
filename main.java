@@ -5,8 +5,11 @@ public class main {
         // Scanner sc = new Scanner(System.in);
         // String a = sc.nextLine();
         // System.out.println(a);
-        String example = "abcdefghijkmnopqrstuvwxyz";
+        String example = "Hrishi";
         example = example.toUpperCase();
-        translator.translate(example);
+        String result = translator.translate(example);
+        System.out.println("result:" + result);
+        String reverse = translator.reverseTranslate(result);
+        System.out.println("reverse result:" + reverse);
     }
 }
