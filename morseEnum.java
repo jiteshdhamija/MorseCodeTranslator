@@ -24,7 +24,27 @@ public enum morseEnum {
     W('W', "*--"),
     X('X', "-**-"),
     Y('Y', "-*--"),
-    Z('Z', "--**");
+    Z('Z', "--**"),
+    One('1', "*----"),
+    Two('2', "**---"),
+    Three('3', "***--"),
+    Four('4', "****-"),
+    Five('5', "*****"),
+    Six('6', "-****"),
+    Seven('7', "--***"),
+    Eight('8', "---**"),
+    Nine('9', "----*"),
+    Zero('0', "-----"),
+    Period('.', "*-*-*-"),
+    Comma(',', "--**--"),
+    Colon(':', "---***"),
+    QuestionMark('?', "**--**"),
+    Apostrophe('\'', "*----*"),
+    Hyphen('-', "-****-"),
+    Slash('/', "-**-*"),
+    ParenthesesOpen('(', "-*--*-"),
+    ParenthesesCLose(')', "-*--*-"),
+    Qutations('"', "*-**-*");
 
     private final char key;
     private String value;

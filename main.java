@@ -5,7 +5,7 @@ public class main {
         // Scanner sc = new Scanner(System.in);
         // String a = sc.nextLine();
         // System.out.println(a);
-        String example = "Hrishi";
+        String example = "Hrishi,\"dsadasd\":abcd()aodjsiajd";
         example = example.toUpperCase();
         String result = translator.translate(example);
         System.out.println("result:" + result);
